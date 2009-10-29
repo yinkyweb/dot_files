@@ -1,0 +1,7 @@
+run following commands:
+
+  $ cd
+  $ git clone git://github.com/yinky/dot_files.git
+  $ cd dot_files
+  $ chmod +x create_symbolic_link.sh
+  $ ./create_symbolic_link.sh

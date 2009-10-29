@@ -33,15 +33,15 @@
 (show-paren-mode 1)
 (setq-default tab-width 2)
 ;(setq-default tab-width 999)
-(setq load-path (cons (expand-file-name "~/elisp") load-path)) ; make ~/elisp ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/common") load-path)) ; make ~/elisp/common ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/ruby") load-path)) ; make ~/elisp/ruby ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/php") load-path)) ; make ~/elisp/php ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/js") load-path)) ; make ~/elisp/js ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/scheme") load-path)) ; make ~/elisp/scheme ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/irc") load-path)) ; make ~/elisp/irc ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/apel") load-path)) ; make ~/elisp/apel ELISP repository
-(setq load-path (cons (expand-file-name "~/elisp/yasnippet") load-path)) ; make ~/elisp/yasnippet ELISP repository
+(setq load-path (cons (expand-file-name "~/elisp") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/common") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/ruby") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/php") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/js") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/scheme") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/irc") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/apel") load-path))
+(setq load-path (cons (expand-file-name "~/elisp/yasnippet") load-path))
 
 ; Japanese
 ; (require 'un-define)
@@ -156,7 +156,7 @@
 (require 'psvn)
 
 ; w3m
-(require 'w3m-load)
+;; (require 'w3m-load)
 
 ; irc
 (autoload 'irchat "irchat" "Internet Relay Chat" t)
