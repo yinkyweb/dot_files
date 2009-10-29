@@ -247,3 +247,15 @@
 (setq auto-mode-alist
       (append '(("\\.kahua$" . kahua-mode)) auto-mode-alist))
 
+; anything
+(require 'anything-config)
+(setq anything-sources (list anything-c-source-buffers
+                             anything-c-source-bookmarks
+                             anything-c-source-recentf
+                             anything-c-source-file-name-history
+                             anything-c-source-locate))
+(define-key anything-map "\C-p" 'anything-previous-line)
+(define-key anything-map "\C-n" 'anything-next-line)
+(define-key anything-map "\C-v" 'anything-next-source)
+(define-key anything-map "\M-v" 'anything-previous-source)
+(global-set-key "\C-c\C-c" 'anything)
