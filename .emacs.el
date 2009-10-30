@@ -258,4 +258,4 @@
 (define-key anything-map "\C-n" 'anything-next-line)
 (define-key anything-map "\C-v" 'anything-next-source)
 (define-key anything-map "\M-v" 'anything-previous-source)
-(global-set-key "\C-c\C-c" 'anything)
+(global-set-key "\C-c\C-d" 'anything)
