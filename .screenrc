@@ -2,6 +2,7 @@ escape ^Tt
 defscrollback 100000
 defkanji utf8
 hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+startup_message off
 
 # Emacs bind
 bind -c REGION 2 split
