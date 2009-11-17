@@ -80,3 +80,10 @@ export PYTHONPATH=/usr/local/lib/python2.6/site-packages/
 
 keychain id_rsa
 . $HOME/.keychain/$HOST-sh
+
+# Google Go
+export GOROOT=$HOME/go
+export GOARCH=386
+export GOOS=linux
+export GOBIN=$HOME/go/bin
+export PATH=$GOBIN:$PATH
